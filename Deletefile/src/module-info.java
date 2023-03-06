@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author hiraj
- *
- */
-module Deletefile {
-}
