@@ -3,7 +3,7 @@ package Project;
 import java.util.LinkedList;
 import java.util.List;
 
-public class Listoffiles {
+public class ListOfFiles {
 	static List<String> list = new LinkedList<>();
 
 	@Override

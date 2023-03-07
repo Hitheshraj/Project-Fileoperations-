@@ -1,11 +1,11 @@
 package Project;
 
-public class Deletefile {
+public class DeleteFile {
 	String file;
-		public Deletefile(String file) {
-		if(!Listoffiles.list.isEmpty()) {
-			if(Listoffiles.list.contains(file)) {
-			Listoffiles.Remove(file);
+		public DeleteFile(String file) {
+		if(!ListOfFiles.list.isEmpty()) {
+			if(ListOfFiles.list.contains(file)) {
+			ListOfFiles.Remove(file);
 			System.out.println("The File "+file+" Removed");
 			}
 			else {

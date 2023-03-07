@@ -3,7 +3,7 @@ package Project;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Terminate_or_continue {
+public class TerminateOrContinue {
 
 	public void terminateOrContinue() {
 		System.out.println("Select 1 : TO Go Back to main menu\n" + "Select 2 : TO Exit");

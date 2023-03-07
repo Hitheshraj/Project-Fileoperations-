@@ -13,13 +13,13 @@ public class Main {
 			System.out.println("Select 1 -> Display Files\n" + "Select 2 -> To Perform File operations\n"
 					+ "Select 3 -> Exit menu");
 			int input = inp.nextInt();
-			Terminate_or_continue terminateOrContinue = new Terminate_or_continue();
+			TerminateOrContinue terminateOrContinue = new TerminateOrContinue();
 			switch (input) {
 			case 1:
-				System.out.println(Listoffiles.list);
+				new DisplayFile().sort();
 				terminateOrContinue.terminateOrContinue();
 				break;
-			case 2:new File_operations().file_operations();;
+			case 2:new FileOperations().fileOperations();;
 			case 3:
 				return;
 
