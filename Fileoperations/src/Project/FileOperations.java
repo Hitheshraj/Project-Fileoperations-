@@ -1,12 +1,9 @@
 package Project;
-
 import java.util.InputMismatchException;
 import java.util.Scanner;
-
 public class FileOperations {
 	static int i = 1;
 	Scanner inp = new Scanner(System.in);
-
 	public void fileOperations() {
 		System.out.println("--------File Operations--------");
 		System.out.println("Select 1 -> To Add File\n" + "Select 2 -> To Remove File\n" + "Select 3 -> To Search File\n"
@@ -61,9 +58,7 @@ public class FileOperations {
 					System.out.println("Attempt " + i + " Failed Invalid Input\n");
 					i++;
 					new FileOperations().fileOperations();
-
 				}
-
 			}
 		} catch (InputMismatchException e) {
 			e.getMessage();
